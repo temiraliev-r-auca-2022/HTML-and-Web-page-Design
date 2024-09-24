@@ -1,0 +1,86 @@
+body {
+    font-family: Trebuchet MS;
+}
+
+#header {
+    background-color: dimgray;
+    color: white;
+    padding: 1rem;
+    padding-left: 0rem;
+    border-bottom: 2.5rem solid lightseagreen;
+    height: 2.5rem;
+}
+
+#header h1 {
+    font-size: 1.5rem;
+    color: white;
+}
+
+* {
+    margin: 0;
+}
+
+#title {
+    background-color: lightgray;
+    text-align: center;
+    padding-top: 0rem;
+    height: 28.5rem;
+}
+
+#about {
+    display: flex;
+}
+
+#about h3 {
+    color: lightseagreen;
+    text-align: center;
+    width: 13.5rem;
+    margin: 0 auto;
+    padding-top: 2.5rem;
+}
+
+#about img {
+    width: 250px;
+    height: 17rem;
+    background-color: gray;
+}
+
+
+#fav h3{
+    text-align: center;
+    color: lightseagreen;
+    width: 13.5rem;
+    margin: 0 auto;
+    padding-top: 2.5rem;
+}
+
+#food {
+    position: relative;
+    left: -20rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#people {
+    position: relative;
+    left: 0rem;
+    top: -3.5rem;
+    display: flex;  
+    justify-content: space-evenly;
+}
+
+#films {
+    position: relative;
+     left: 20rem;
+     top: -7rem;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#wish h3{
+    text-align: center;
+    color: lightseagreen;
+    width: 13.5rem;
+    margin: 0 auto;
+    padding-top: 2.5rem;
+}
