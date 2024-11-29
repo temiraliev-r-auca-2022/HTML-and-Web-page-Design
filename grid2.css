@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://cdn.imgchest.com/files/6yxkcg9ek7w.png);
+    background-repeat: no-repeat;
+    max-width: 1143px;
+    min-height: 1583px;
+    font-size: 2rem;
+    opacity: .5;
+    color: blue;
+}
+
+.container > * {
+    border: 2px dashed blue;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: 44px 126px 121px 448px 468px 126px 126px;
+    grid-template-areas:
+  "one one one"
+  "two six seven"
+  "three three three"
+  "four four four"
+  "five five five";
+  grid-template-columns: 435px 498px 350px;
+}
+
+.box1 {
+    grid-area: one;
+}
+
+.box2 {
+    grid-area: two;
+}
+
+.box3 {
+    grid-area: three;
+    display: flex;
+}
+.box3>ul {
+
+    font-size: 13px;
+    font-weight: normal;
+    list-style-type: none; 
+    display: flex;
+    background-color: #0096c8;
+    color: #d2edf6;
+    max-width: 100%;
+    min-height: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0;
+    padding: 20;
+
+}
+
+.box4 {
+    grid-area: four;
+}
+
+.box5 {
+    grid-area: five;
+}
+
+.box6 {
+    grid-area: six;
+}
+
+.box7 {
+    grid-area: seven;
+}
+/* 
+.box8 {
+    grid-area: eight;
+}
+
+.box9 {
+    grid-area: nine;
+} */
+
+.children {
+    flex-basis: 100px;
+}
+
+.apple {
+    flex-basis: 140px;
+}
+
+.smartphones {
+    flex-basis: 140px;
+}
+
+.huawei {
+    flex-basis: 140px;
+}
+
+.tablets {
+    flex-basis: 140px;
+}
+
+.accessories {
+    flex-basis: 140px;
+}
+
+.xiaomi {
+    flex-basis: 140px;
+}
+
+.watches {
+    flex-basis: 140px;
+}
+
+.audio {
+    flex-basis: 100px;
+}
+
+.lan {
+    flex-basis: 180px;
+}
+
+.TV {
+    flex-basis: 140px;
+}
+
+.commercial {
+    flex-basis: 180px;
+}
+
+.PC {
+    flex-basis: 180px;
+}
+
+.climate {
+    flex-basis: 200px;
+}
+
+.servers {
+    flex-basis: 180px;
+}
+
+.transport {
+    flex-basis: 140px;
+}
+
+.health {
+    flex-basis: 300px;
+} 
